@@ -1,4 +1,4 @@
-# EasyTutoNotes
+Clg Notes App
 
 Simple notes app using Realm Database
 - Add notes
