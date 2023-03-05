@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background1"
+    android:padding="20dp"
+    tools:context=".AddNoteActivity">
+
+    <TextView
+        android:id="@+id/titletextview2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="Add Your Task"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_corner">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/titleinput"
+            android:hint="Title"
+            android:background="#8D504A5A"
+            android:padding="10dp"
+            android:layout_margin="10dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/descriptioninput"
+            android:hint="Decription"
+            android:background="#8D504A5A"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:lines="10"
+            android:gravity="top"/>
+
+
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/savebtn"
+        android:text="SAVE Your Task"
+        android:layout_gravity="center"
+        android:backgroundTint="#06B30D"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/titletextview"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="    "
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/titletextview4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="   "
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/titletextview3"
+        android:layout_width="331dp"
+        android:layout_height="107dp"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="Created By - Vinoth M, Sanjay R, Sanjay S"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
